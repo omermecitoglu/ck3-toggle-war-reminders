@@ -1,0 +1,12 @@
+﻿l_english:
+  disable_war_reminders_decision: "Don't remind me to declare war"
+  disable_war_reminders_decision_desc: "Don't they bother you sometimes?"
+  disable_war_reminders_decision_tooltip: "Disable declare war reminders"
+  disable_war_reminders_decision_confirm: "Yes, I know when to declare wars"
+  disable_war_reminders_decision_effect: "You won't be reminded to declare wars anymore."
+
+  enable_war_reminders_decision: "Remind me to declare war"
+  enable_war_reminders_decision_desc: "Actually, weren't they quite useful?"
+  enable_war_reminders_decision_tooltip: "Enable declare war reminders"
+  enable_war_reminders_decision_confirm: "Yes, remind me to declare wars again"
+  enable_war_reminders_decision_effect: "You will be reminded to declare wars again."

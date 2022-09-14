@@ -1,0 +1,61 @@
+﻿disable_war_reminders_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_toggle_war_reminders.dds"
+	ai_check_interval = 60
+	
+	sort_order = -1
+
+	desc = disable_war_reminders_decision_desc
+	selection_tooltip = disable_war_reminders_decision_tooltip
+
+	is_shown = {
+		is_landed = yes
+		NOT = {
+			has_character_modifier = disabled_war_reminders
+		}
+	}
+
+	effect = {
+		custom_tooltip = disable_war_reminders_decision_effect
+		hidden_effect = {
+			add_character_modifier = disabled_war_reminders
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+enable_war_reminders_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_toggle_war_reminders.dds"
+	ai_check_interval = 60
+	
+	sort_order = -1
+
+	desc = enable_war_reminders_decision_desc
+	selection_tooltip = enable_war_reminders_decision_tooltip
+
+	is_shown = {
+		is_landed = yes
+		has_character_modifier = disabled_war_reminders
+	}
+
+	effect = {
+		custom_tooltip = enable_war_reminders_decision_effect
+		hidden_effect = {
+			remove_character_modifier = disabled_war_reminders
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

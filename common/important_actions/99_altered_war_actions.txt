@@ -1,0 +1,69 @@
+﻿# 1.7.0
+
+action_has_any_display_cb_on = {
+	priority = 600
+	combine_into_one = yes
+	check_create_action = {
+		if = {
+			limit = {
+				gold >= 0
+				NOT = {
+					has_character_modifier = disabled_war_reminders
+				}
+			}
+			every_neighboring_and_across_water_top_liege_realm_owner = {
+				limit = {
+					save_temporary_scope_as = this_ruler
+					root = {
+						has_any_cb_on = scope:this_ruler
+						NOR = {
+							is_allied_to = scope:this_ruler
+							has_truce = scope:this_ruler
+						}
+					}	
+				}
+				try_create_important_action = {
+					important_action_type = action_has_any_display_cb_on
+					actor = root
+					recipient = this
+				}
+			}
+			if = {
+				limit = { is_independent_ruler = no }
+				liege = {
+					every_vassal = {
+						limit = {
+							save_temporary_scope_as = this_ruler
+							root = {
+								has_any_cb_on = scope:this_ruler
+								NOR = {
+									is_allied_to = scope:this_ruler
+									has_truce = scope:this_ruler
+								}
+							}	
+						}
+						try_create_important_action = {
+							important_action_type = action_has_any_display_cb_on
+							actor = root
+							recipient = this
+						}
+					}
+				}
+			}
+		}
+	}
+
+	unimportant = {
+		scope:recipient = {
+			current_military_strength > root.current_military_strength
+		}
+	}
+
+	effect = {
+		open_interaction_window = {
+			interaction = declare_war_interaction
+			actor = scope:actor
+			recipient = scope:recipient
+		}
+	}
+}
