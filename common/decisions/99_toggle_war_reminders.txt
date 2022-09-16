@@ -10,14 +10,14 @@
 	is_shown = {
 		is_landed = yes
 		NOT = {
-			has_character_modifier = disabled_war_reminders
+			has_character_flag = disabled_war_reminders
 		}
 	}
 
 	effect = {
 		custom_tooltip = disable_war_reminders_decision_effect
 		hidden_effect = {
-			add_character_modifier = disabled_war_reminders
+			add_character_flag = disabled_war_reminders
 		}
 	}
 
@@ -41,13 +41,13 @@ enable_war_reminders_decision = {
 
 	is_shown = {
 		is_landed = yes
-		has_character_modifier = disabled_war_reminders
+		has_character_flag = disabled_war_reminders
 	}
 
 	effect = {
 		custom_tooltip = enable_war_reminders_decision_effect
 		hidden_effect = {
-			remove_character_modifier = disabled_war_reminders
+			remove_character_flag = disabled_war_reminders
 		}
 	}
 
