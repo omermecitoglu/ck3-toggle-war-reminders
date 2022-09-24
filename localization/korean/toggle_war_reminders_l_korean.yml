@@ -1,0 +1,11 @@
+﻿l_korean:
+  disable_war_reminders_decision: "전쟁선포에 대해 더 이상 알리지 않도록 하다."
+  disable_war_reminders_decision_desc: "이런것들이 가끔 귀찮게 하지 않습니까?"
+  disable_war_reminders_decision_tooltip: "전쟁선포 알림 끄기"
+  disable_war_reminders_decision_confirm: "알어, 언젠간 전쟁선포 해야하는거"
+  disable_war_reminders_decision_effect: "전쟁선포에 대한 알림을 더 이상 표시되지 않기"
+  enable_war_reminders_decision: "전쟁선포에 대해 다시 알려주도록 하다"
+  enable_war_reminders_decision_desc: "사실, 그것들은 조금은... 편한걸?"
+  enable_war_reminders_decision_tooltip: "전쟁선포 알림을 켜기"
+  enable_war_reminders_decision_confirm: "그래, 전쟁선포에 대해서 다시 알려줘"
+  enable_war_reminders_decision_effect: "당신은 전쟁선포에 대해 다시 알림을 다시 보게 될 것 입니다."
