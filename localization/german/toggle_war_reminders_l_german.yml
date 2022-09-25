@@ -1,0 +1,11 @@
+﻿l_german:
+  disable_war_reminders_decision: "Erinnere mich nicht daran Kriege zu erklären"
+  disable_war_reminders_decision_desc: "Stören sie dich nicht manchmal?"
+  disable_war_reminders_decision_tooltip: "Kriegserinnerungen deaktivieren"
+  disable_war_reminders_decision_confirm: "Ja, ich weiß wann man Kriege erklären kann"
+  disable_war_reminders_decision_effect: "Du wirst nicht mehr daran erinnert, Kriege zu erklären."
+  enable_war_reminders_decision: "Erinnere mich daran, Kriege zu erklären"
+  enable_war_reminders_decision_desc: "Waren sie eigentlich nicht ganz nützlich?"
+  enable_war_reminders_decision_tooltip: "Kriegserinnerungen aktivieren"
+  enable_war_reminders_decision_confirm: "Ja, erinnere mich daran, wieder Kriege zu erklären"
+  enable_war_reminders_decision_effect: "Du wirst wieder daran erinnert, Kriege zu erklären."
