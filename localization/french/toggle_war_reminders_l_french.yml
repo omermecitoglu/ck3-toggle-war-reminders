@@ -1,0 +1,11 @@
+﻿l_french:
+  disable_war_reminders_decision: "Ne pas me rappeler les possibilités de déclarer la guerre"
+  disable_war_reminders_decision_desc: "Ne vous ennuient-ils pas à l'occasion ?"
+  disable_war_reminders_decision_tooltip: "Désactiver les rappels de déclaration de guerre"
+  disable_war_reminders_decision_confirm: "Oui, je sais quand déclarer la guerre"
+  disable_war_reminders_decision_effect: "Vous ne serez plus notifié des possibilités de déclarer la guerre."
+  enable_war_reminders_decision: "Me rappeler de déclarer la guerre"
+  enable_war_reminders_decision_desc: "Auraient-ils finalement trouvé leur utilité ?"
+  enable_war_reminders_decision_tooltip: "Activer les rappels de déclaration de guerre"
+  enable_war_reminders_decision_confirm: "Oui, me notifier à nouveau pour les déclarations de guerre"
+  enable_war_reminders_decision_effect: "Vous serez notifié des possibilités de déclarer la guerre."
