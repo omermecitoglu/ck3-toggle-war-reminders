@@ -1,0 +1,17 @@
+﻿on_death = {
+	on_actions = {
+		toggle_war_reminders_on_death
+	}
+}
+
+toggle_war_reminders_on_death = {
+	trigger = {
+		has_character_flag = disabled_war_reminders
+		exists = player_heir
+	}
+	effect = {
+		player_heir = {
+			add_character_flag = disabled_war_reminders
+		}
+	}
+}
