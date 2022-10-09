@@ -28,6 +28,10 @@
 	ai_will_do = {
 		base = 0
 	}
+	
+	widget = {
+		gui = "toggle_war_reminders_widget"
+	}
 }
 
 enable_war_reminders_decision = {
@@ -42,6 +46,9 @@ enable_war_reminders_decision = {
 	is_shown = {
 		is_landed = yes
 		has_character_flag = disabled_war_reminders
+		NOT = {
+			has_character_flag = disabled_war_reminders_permanently
+		}
 	}
 
 	effect = {

@@ -10,3 +10,5 @@
   enable_war_reminders_decision_tooltip: "Enable declare war reminders"
   enable_war_reminders_decision_confirm: "Yes, remind me to declare wars again"
   enable_war_reminders_decision_effect: "You will be reminded to declare wars again."
+
+  twr_widget_check_permanently: "Permanently"

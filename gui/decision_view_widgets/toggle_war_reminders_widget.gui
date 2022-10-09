@@ -1,0 +1,41 @@
+toggle_war_reminders_widget_main = {}
+
+types ToggleWarRemindersDecisionWidget
+{
+	type twr_toggle_perma = button_checkbox_label
+	{
+		datacontext = "[GetScriptedGui('toggle_war_reminders_permanently')]"
+		onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+		# tooltip = "twr_widget_check_permanently_tooltip"
+
+		blockoverride "checkbox"
+		{
+			checked = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+		}
+
+		blockoverride "text"
+		{
+			text = "twr_widget_check_permanently"
+		}
+	}
+	type toggle_war_reminders_widget_main = flowcontainer
+	{
+		name = "toggle_war_reminders_widget"
+		direction = vertical
+		minimumsize = { 514 -1 }
+		maximumsize = { 514 -1 }
+		ignoreinvisible = yes
+		margin_top = 8
+
+		vbox = {
+			vbox = {
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_bottom = 8
+					twr_toggle_perma = {}
+					expand = {}
+				}
+			}
+		}
+	}
+}

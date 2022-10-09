@@ -6,12 +6,24 @@
 
 toggle_war_reminders_on_death = {
 	trigger = {
-		has_character_flag = disabled_war_reminders
 		exists = player_heir
 	}
 	effect = {
-		player_heir = {
-			add_character_flag = disabled_war_reminders
+		if = {
+			limit = {
+				has_character_flag = disabled_war_reminders
+			}
+			player_heir = {
+				add_character_flag = disabled_war_reminders
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = disabled_war_reminders_permanently
+			}
+			player_heir = {
+				add_character_flag = disabled_war_reminders_permanently
+			}
 		}
 	}
 }

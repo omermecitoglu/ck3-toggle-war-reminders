@@ -1,0 +1,17 @@
+﻿toggle_war_reminders_permanently = {
+	scope = character
+	is_shown = {
+		has_character_flag = disabled_war_reminders_permanently
+	}
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = disabled_war_reminders_permanently
+			}
+			remove_character_flag = disabled_war_reminders_permanently
+		}
+		else = {
+			add_character_flag = disabled_war_reminders_permanently
+		}
+	}
+}
