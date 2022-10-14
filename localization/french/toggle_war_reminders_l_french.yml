@@ -9,3 +9,4 @@
   enable_war_reminders_decision_tooltip: "Activer les rappels de déclaration de guerre"
   enable_war_reminders_decision_confirm: "Oui, me notifier à nouveau pour les déclarations de guerre"
   enable_war_reminders_decision_effect: "Vous serez notifié des possibilités de déclarer la guerre."
+  twr_widget_check_permanently: "En permanence"
