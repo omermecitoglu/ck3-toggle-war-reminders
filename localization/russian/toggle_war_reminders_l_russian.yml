@@ -9,3 +9,4 @@
   enable_war_reminders_decision_tooltip: "Включить напоминания об объявлении войн"
   enable_war_reminders_decision_confirm: "Да, снова напоминайте мне объявлять войны"
   enable_war_reminders_decision_effect: "Вам снова будут напоминать объявлять войны."
+  twr_widget_check_permanently: "Окончательное решение"
