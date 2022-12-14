@@ -6,5 +6,5 @@ tags={
 	"Decisions"
 }
 name="Don't Remind Me to Declare War"
-supported_version="1.7.*"
+supported_version="1.8.*"
 remote_file_id="2862902755"
