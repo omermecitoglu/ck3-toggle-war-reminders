@@ -1,11 +1,11 @@
 ﻿l_simp_chinese:
   disable_war_reminders_decision: "不要提醒我宣战"
-  disable_war_reminders_decision_desc: "是否它们有些时候打扰你了呢？"
+  disable_war_reminders_decision_desc: "厌烦了没完没了的宣战提醒？"
   disable_war_reminders_decision_tooltip: "禁用宣战提醒"
   disable_war_reminders_decision_confirm: "是的，我知道何时要宣战"
   disable_war_reminders_decision_effect: "你将不会再被提醒宣战。"
   enable_war_reminders_decision: "提醒我宣战"
-  enable_war_reminders_decision_desc: "实际上，它们不是非常有用？"
+  enable_war_reminders_decision_desc: "忙于治国，又不想贻误战机？"
   enable_war_reminders_decision_tooltip: "启用宣战提醒"
   enable_war_reminders_decision_confirm: "是的，提醒我宣战"
   enable_war_reminders_decision_effect: "你将被提醒宣战。"
