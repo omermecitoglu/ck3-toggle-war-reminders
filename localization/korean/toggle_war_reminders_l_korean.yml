@@ -9,3 +9,4 @@
   enable_war_reminders_decision_tooltip: "전쟁선포 알림을 켜기"
   enable_war_reminders_decision_confirm: "그래, 전쟁선포에 대해서 다시 알려줘"
   enable_war_reminders_decision_effect: "당신은 전쟁선포에 대해 다시 알림을 다시 보게 될 것 입니다."
+  twr_widget_check_permanently: "영구적으로"
