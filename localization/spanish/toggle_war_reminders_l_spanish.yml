@@ -1,0 +1,12 @@
+﻿l_spanish:
+  disable_war_reminders_decision: "No me recuerdes que declare la guerra"
+  disable_war_reminders_decision_desc: "¿No te molestan a veces?"
+  disable_war_reminders_decision_tooltip: "Deshabilitar recordatorios de declaraciones de guerra"
+  disable_war_reminders_decision_confirm: "Sí, sé cuándo declarar las guerras"
+  disable_war_reminders_decision_effect: "Ya no se te recordará que declares guerras."
+  enable_war_reminders_decision: "Recordarme declarar la guerra"
+  enable_war_reminders_decision_desc: "En realidad, ¿no eran muy útiles?"
+  enable_war_reminders_decision_tooltip: "Habilitar recordatorios de declaraciones de guerra"
+  enable_war_reminders_decision_confirm: "Sí, recordarme que declare las guerras de nuevo"
+  enable_war_reminders_decision_effect: "Se te recordará que declares guerras de nuevo."
+  twr_widget_check_permanently: "Permanentemente"
